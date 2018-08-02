@@ -8,6 +8,6 @@ import css from './styles/style.styl';
 import Main from './components/Main';
 
 render(
-	<Main />,
+	<Main />
 	document.getElementById('root')
 );
