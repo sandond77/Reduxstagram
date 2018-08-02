@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router';
 
-
-const Main = React.createClass({
+const Single = React.createClass({
 	render(){
 		return (
 			<div className="single-photo">
@@ -12,4 +10,4 @@ const Main = React.createClass({
 	}
 });
 
-export default Single  
+export default Single;

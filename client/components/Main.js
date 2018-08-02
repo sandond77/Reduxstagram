@@ -11,10 +11,10 @@ const Main = React.createClass({
 					Reduxstagram
 					</Link>	
 				</h1>
-				{React.cloneElement(this.props.children, this.props )}
+				{React.cloneElement(this.props.children, this.props)}
 			</div>
 		)
 	}
 });
 
-export default Main;
+export default Main; 
