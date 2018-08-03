@@ -1,15 +1,15 @@
 //Increment
-function increment(index) {
+export function increment(index) {
 	return{
-		type:"INCREMENT_Likes",
+		type:'INCREMENT_Likes',
 		index
 	}
 }
 
 //add Comments
-function addComment(postId, author, comment){
+export function addComment(postId, author, comment){
 	return{
-		type:"ADD_COMMENT",
+		type:'ADD_COMMENT',
 		postId,
 		author,
 		comment
@@ -18,4 +18,10 @@ function addComment(postId, author, comment){
 
 
 //remove comments
-
+export function removeComment(postId, i){
+	return{
+		type:'REMOVE_COMMENT',
+		i,
+		postId
+	}
+}
